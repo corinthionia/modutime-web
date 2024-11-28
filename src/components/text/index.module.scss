@@ -1,0 +1,5 @@
+@each $type, $style in $font-size {
+  .text-#{$type} {
+    @include typography($type);
+  }
+}
